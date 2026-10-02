@@ -37,8 +37,7 @@ names(raster_stack) <- ifelse(grepl("elev", nomes), "elev",
                                 gsub(".*bio[_]?([0-9]{1,2}).*", "\\1", nomes)))))
 
 # 2. Occurrence records (Supplementary material 1)
-oco_df <- as.data.frame(read_excel(file.choose(), sheet = 1,
-                                   range = cell_limits(c(4, 1), c(NA, 7))))
+oco_df <- as.data.frame(read_excel(file.choose(), sheet = 1))
 oco_df <- oco_df[!is.na(oco_df$Record) & !is.na(oco_df$Species), ]
 oco_df$especie <- sub("^Mitracarpus ", "", oco_df$Species)
 
