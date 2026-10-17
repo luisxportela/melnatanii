@@ -1,0 +1,56 @@
+{
+  "title": "Supplementary data and climatic-niche analysis code for the description of Mitracarpus elnatanii (Rubiaceae, Spermacoceae) from the Brazilian restinga",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "description": "<p>Supplementary data and analysis code underlying the description of <em>Mitracarpus elnatanii</em> (Rubiaceae, Spermacoceae), a new species from the restinga of Setiba, Espírito Santo, Brazil, based on a single 1987 gathering long misidentified as <em>M. lhotzkyanus</em>.</p><p>Contents: the compiled occurrence records of the new taxon and four related species (<em>M. eichleri</em>, <em>M. frigidus</em>, <em>M. lhotzkyanus</em> and <em>M. salzmannianus</em>); the outputs of the climatic-niche analyses; and the R script that reproduces them.</p><p>Analyses comprise multicollinearity screening by variance inflation factor (vifstep, threshold 80, on Spearman correlations), a PCA of environmental space (PCA-env) calibrated on 10,000 background points, a one-way MANOVA on Pillai's trace, Linear Discriminant Analysis with leave-one-out cross-validation reported as accuracy and Cohen's kappa, pairwise niche overlap measured by Schoener's D with niche equivalency tests and Holm-adjusted P values, and a test of whether the single record of the new species falls within the 95% concentration ellipse of each related species.</p><p>The 19 bioclimatic variables and elevation used by the script are not deposited here: they are WorldClim v. 2.1 layers at 30-arc-second resolution (Fick and Hijmans 2017), to be downloaded separately. The README explains how.</p>",
+  "keywords": [
+    "Mitracarpus",
+    "Mitracarpus elnatanii",
+    "Rubiaceae",
+    "Spermacoceae",
+    "Rubioideae",
+    "restinga",
+    "Atlantic Rainforest",
+    "Espirito Santo",
+    "climatic niche",
+    "endemism",
+    "IUCN Red List",
+    "plant taxonomy",
+    "new species",
+    "Brazil"
+  ],
+  "creators": [
+    {
+      "name": "Portela, Luís Henrique Ximenes",
+      "affiliation": "Escola Nacional de Botânica Tropical, Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil",
+      "orcid": "0000-0003-1385-1210"
+    },
+    {
+      "name": "Brunoro, Isabela",
+      "affiliation": "Universidade Federal do Espírito Santo, Herbário VIES, Vitória, Espírito Santo, Brazil",
+      "orcid": "0009-0000-1225-8402"
+    },
+    {
+      "name": "Nepomuceno, Álvaro",
+      "affiliation": "Universidade Estadual de Santa Cruz, Ilhéus, Bahia, Brazil",
+      "orcid": "0000-0002-4643-8177"
+    },
+    {
+      "name": "De Toni, Karen Lúcia Gama",
+      "affiliation": "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil",
+      "orcid": "0000-0002-1053-3471"
+    },
+    {
+      "name": "Gonçalves-Oliveira, Rodrigo César",
+      "affiliation": "Universidade de Pernambuco, campus Petrolina, Petrolina, Pernambuco, Brazil",
+      "orcid": "0000-0002-8420-1939"
+    },
+    {
+      "name": "Bovini, Massimo Giuseppe",
+      "affiliation": "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil",
+      "orcid": "0000-0002-4082-7817"
+    }
+  ]
+}
