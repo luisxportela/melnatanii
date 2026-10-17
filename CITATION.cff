@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: "Supplementary data and climatic-niche analysis code for the description of Mitracarpus elnatanii (Rubiaceae, Spermacoceae)"
+message: "If you use these data or this code, please cite the paper below."
+type: software
+license: CC-BY-4.0
+authors:
+  - family-names: "Portela"
+    given-names: "Luís Henrique Ximenes"
+    orcid: "https://orcid.org/0000-0003-1385-1210"
+    affiliation: "Escola Nacional de Botânica Tropical, Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil"
+  - family-names: "Brunoro"
+    given-names: "Isabela"
+    orcid: "https://orcid.org/0009-0000-1225-8402"
+    affiliation: "Universidade Federal do Espírito Santo, Herbário VIES, Vitória, Espírito Santo, Brazil"
+  - family-names: "Nepomuceno"
+    given-names: "Álvaro"
+    orcid: "https://orcid.org/0000-0002-4643-8177"
+    affiliation: "Universidade Estadual de Santa Cruz, Ilhéus, Bahia, Brazil"
+  - family-names: "De Toni"
+    given-names: "Karen Lúcia Gama"
+    orcid: "https://orcid.org/0000-0002-1053-3471"
+    affiliation: "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil"
+  - family-names: "Gonçalves-Oliveira"
+    given-names: "Rodrigo César"
+    orcid: "https://orcid.org/0000-0002-8420-1939"
+    affiliation: "Universidade de Pernambuco, campus Petrolina, Petrolina, Pernambuco, Brazil"
+  - family-names: "Bovini"
+    given-names: "Massimo Giuseppe"
+    orcid: "https://orcid.org/0000-0002-4082-7817"
+    affiliation: "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil"
+keywords:
+  - Mitracarpus
+  - Rubiaceae
+  - Spermacoceae
+  - restinga
+  - climatic niche
+  - endemism
+  - plant taxonomy
+repository-code: "https://github.com/luisxportela/melnatanii"
+preferred-citation:
+  type: article
+  title: "Overlooked in the herbarium, lost in the field: the discovery of Mitracarpus elnatanii sp. nov. (Rubiaceae, Spermacoceae) highlights the vulnerability of herbaceous endemics in the Brazilian restinga"
+  journal: "Anais da Academia Brasileira de Ciências"
+  authors:
+    - family-names: "Portela"
+      given-names: "Luís Henrique Ximenes"
+    - family-names: "Brunoro"
+      given-names: "Isabela"
+    - family-names: "Nepomuceno"
+      given-names: "Álvaro"
+    - family-names: "De Toni"
+      given-names: "Karen Lúcia Gama"
+    - family-names: "Gonçalves-Oliveira"
+      given-names: "Rodrigo César"
+    - family-names: "Bovini"
+      given-names: "Massimo Giuseppe"
